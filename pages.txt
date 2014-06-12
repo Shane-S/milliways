@@ -1,0 +1,29 @@
+======================================================================================================================================================================================================
+        HOME    |   ABOUT   |   PROJECTS    |
+
+LOGO
+
+HOME
+----
+
+The Data Communications and Internetworking option has been churning out software developers since [can't rememeber the year...]. Visit the About page for about the option
+or visit the Projects page to see some sample work.
+
+[Rotating gallery of project screenshots]
+
+
+ABOUT THE OPTION
+----------------
+
+Thinking about choosing Data Comm? You could be a data commie if you
+*   want to learn,
+*   enjoy C/C++ programming,
+*   manage your time (or work well with no sleep),
+*   can learn concepts on your own,
+and above all, you are prepared to work HARD. This option is about more than just getting a piece of paper. You will become a confident, knowledgeable and skilled software developer. Your skills
+will include:
+*   Low-level communications programming (with serial cables)
+*   Sockets programming in C on Linux and Windows
+*   In-depth knowledge of different I/O models
+*   Program design and proper documentation
+See below for a complete list of assignments or head to the Projects page for some examples.
