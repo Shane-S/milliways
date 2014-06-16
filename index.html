@@ -9,7 +9,10 @@
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,30 +38,21 @@
             </div>
         </div>
         
-        <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
-            <div class="slides"></div>
-            <h3 class="title"></h3>
-            <a class="prev">&#171;</a>
-            <a class="next">&#187;</a>
-            <a class="close">&#215;</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
+        <div class="gallery">
+            <div><img src="images/Damn.png" alt="Success"/></div>
+            <div><img src="images/poster.png" alt="Cut the Power"/></div>
+            <div><img src="images/ReceiveLog.png" alt="File Transfer"/></div>
         </div>
         
-        <div id="links">
-            <a href="images/ReceiveLog.png" title="File Transfer"></a>
-            <a href="images/poster.png" title="Cut The Power"></a>
-            <a href="images/Damn.png" title="Success"></a>
-        </div>
-        
-        <!-- Scripts for the image gallery -->
-        <script src="js/blueimp-gallery.min.js"></script>
-        <script>
-            var options = {container: '#blueimp-gallery-carousel', carousel: true},
-                links   = document.getElementById('links').getElementsByTagName('a');
-                blueimp.Gallery(links, options);
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.gallery').slick({
+                    slidesToShow: 2
+                });
+            });
         </script>
-    </body>
+        
+        </body>
 
 </html>
