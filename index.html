@@ -1,28 +1,64 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
-<head>
-    <title>Data Communications</title>
-    <link rel="stylesheet" href="datacomm.css"/>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Data Comm</title>
 
-<body>
-    <div class="container">
-        <div class="nav">
-            <img src="img/HammerSickle.png" id="logo"/>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Past Work</li>
-            </ul>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    
+                </div>
+                <div id="navbar-main" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://milliways.bcit.ca/">Home</a></li>
+                        <li><a href="http://milliways.bcit.ca/about.html">About</a></li>
+                        <li><a href="http://milliways.bcit.ca/projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         
-        <div class="content">
-            <p>Data Communications is one of the options for second year students (Term 3 and 4) in the Computer Systems Technology Diploma Program at BCIT.</p>
-            
+        <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">&#171;</a>
+            <a class="next">&#187;</a>
+            <a class="close">&#215;</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
         </div>
         
-        <div class="footer">
-            <p>Some relevant links go here.</p>
+        <div id="links">
+            <a href="images/ReceiveLog.png" title="File Transfer"></a>
+            <a href="images/poster.png" title="Cut The Power"></a>
+            <a href="images/Damn.png" title="Success"></a>
         </div>
-    </div>
-</body>
+        
+        <!-- Scripts for the image gallery -->
+        <script src="js/blueimp-gallery.min.js"></script>
+        <script>
+            var options = {container: '#blueimp-gallery-carousel', carousel: true},
+                links   = document.getElementById('links').getElementsByTagName('a');
+                blueimp.Gallery(links, options);
+        </script>
+    </body>
+
+</html>
