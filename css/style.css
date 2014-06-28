@@ -1,0 +1,15 @@
+#jumbotron-container {
+    margin-top: 20px;
+}
+
+.thumbnail-content {
+    background-color: #ECF0F1;
+}
+
+.thumbnail-img {
+    text-align: center;
+}
+
+.thumbnail-content small {
+    color: #8698aa;
+}

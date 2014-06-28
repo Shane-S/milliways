@@ -1,58 +1,91 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Data Comm</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Data Communications and Networking">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/slick.css">
-        
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <title>Data Communications at BCIT</title>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    
-    <body>
-        <div class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    
-                </div>
-                <div id="navbar-main" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="http://milliways.bcit.ca/">Home</a></li>
-                        <li><a href="http://milliways.bcit.ca/about.html">About</a></li>
-                        <li><a href="http://milliways.bcit.ca/projects.html">Projects</a></li>
-                    </ul>
-                </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flatly.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#top-nav-collapse-1">
+                    <span class="sr-only">
+                        Toggle navigation
+                    </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    Data Communications at BCIT
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="top-nav-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-        <div class="gallery">
-            <div><img src="images/Damn.png" alt="Success"/></div>
-            <div><img src="images/poster.png" alt="Cut the Power"/></div>
-            <div><img src="images/ReceiveLog.png" alt="File Transfer"/></div>
-        </div>
-        
-        <script type="text/javascript" src="js/slick.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.gallery').slick({
-                    slidesToShow: 2
-                });
-            });
-        </script>
-        
-        </body>
+    </nav>
 
+    <div class="jumbotron">
+        <div class="container" id="jumbotron-container">
+            <h1>Welcome to Data Communications</h1>
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="thumbnail-content">
+                            <div class="thumbnail-img">
+                                <img src="img/hammer_and_sickle.png" alt="Hammer and Sickle">
+                            </div>
+                            <div class="caption text-center">
+                                <h5>Why the hammer and the sickle?</h5>
+                                <small>.... because Data Communication Students are called Data Commies.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9 text-justify">
+                    <p>The Data Communications and Internetworking option has been churning out skilled software developers since [can't rememeber the year...]. Also called <mark>Data Commies</mark>, these creatures dwell in SE12-323 and are found working most of the time.</p>
+
+                    <p>Visit the <a href="about.html">About page</a> for reading more about the option or visit the <a href="projects.html">Projects page</a> to see some sample work.</p>
+                    <p>
+                        <a href="#" class="btn btn-primary btn-lg" role="button">
+                            Download Brochure
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
