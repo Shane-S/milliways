@@ -13,3 +13,13 @@
 .thumbnail-content small {
     color: #8698aa;
 }
+
+.logo_link {
+    position: relative;
+    top: -1em;
+}
+
+#logo_img {
+    height: 300%;
+    position: relative;
+}
