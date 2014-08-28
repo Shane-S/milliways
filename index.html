@@ -5,14 +5,19 @@
     <meta name="description" content="Data Communications and Networking">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
     <title>Data Communications at BCIT</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/flatly.min.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
+</head>
+
+<body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -36,13 +41,13 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="projects.html">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,9 +57,7 @@
     <div class="jumbotron">
         <div class="container" id="jumbotron-container">
             <h1>Welcome to Data Communications</h1>
-
             <div class="row">
-
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <div class="thumbnail-content">
@@ -70,9 +73,9 @@
                 </div>
 
                 <div class="col-md-9 text-justify">
-                    <p>The Data Communications and Internetworking option has been churning out skilled software developers since [can't rememeber the year...]. Also called <b>Data Commies</b>, these creatures dwell in SE12-323 and are found working most of the time.</p>
+                    <p>The Data Communications and Internetworking option has been churning out skilled software developers since January 1st, 1970. Also called <b>Data Commies</b>, these creatures dwell in SE12-323 and are found working most of the time.</p>
 
-                    <p>Visit the <a href="about.html">About page</a> to read more about the option, or visit the <a href="projects.html">Projects page</a> to see some sample work.</p>
+                    <p>Visit the <a href="#about">About page</a> to read more about the option, or visit the <a href="projects.html">Projects page</a> to see some sample work.</p>
                     <p>
                         <a href="#" class="btn btn-primary btn-lg" role="button">
                             Download Brochure
@@ -81,12 +84,42 @@
                 </div>
 
             </div>
-
         </div>
     </div>
+    
+    <div id="about">
+        <h1>About the Option (or: Are You a Data Commie?)</h1>
+        <p>Thinking about choosing Data Comm? You might be a Data Commie if you</p>
 
-    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+        <ul>
+            <li>want to learn,</li>
+            <li>enjoy C/C++ programming,</li>
+            <li>manage your time well (or work well with no sleep),</li>
+            <li>can learn concepts on your own,</li>
+            <li>and above all, are prepared to work HARD.</li>
+        </ul>
+
+        <p>This option is about more than just getting a piece of paper. You will become a confident, knowledgeable and skilled software developer. After this option, you will know:</p>
+
+        <ul>
+            <li>Low-level communications programming</li>
+            <li>Sockets programming in C/C++ on Linux and Windows (and possibly Android)</li>
+            <li>The details and practical applications of different I/O models</li>
+            <li>How to learn complex concepts independently</li>
+            <li>How to design and properly document your programs</li>
+        </ul>
+
+        <p>For some examples of the kind of work you might do in this option, have a look at the <a href="#projects">Projects</a> section. You can also <a href="/files/brochure.pdf">download the brochure</a> for more info.
+    </div>
+    
+    <div id="projects">
+        <!-- Slider with all of the project images -->
+        <!-- List of projects with GitHub links -->
+    </div>
+    
+    <div id="contact">
+        <!-- No idea what was actually supposed to go here -->
+        <!-- Maybe we shouldn't have this section... -->
+    </div>
 </body>
 </html>
