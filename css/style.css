@@ -1,5 +1,13 @@
-#jumbotron-container {
-    margin-top: 20px;
+
+#logo_img {
+    height: 3em;
+    position: relative;
+}
+
+#site_wrapper {
+    padding-top: 4em;
+    width: 80%;
+    margin: 0 auto 0 auto;
 }
 
 .thumbnail-content {
@@ -17,9 +25,4 @@
 .logo_link {
     position: relative;
     top: -1em;
-}
-
-#logo_img {
-    height: 300%;
-    position: relative;
 }
