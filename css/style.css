@@ -26,3 +26,9 @@
     position: relative;
     top: -1em;
 }
+
+/* Keeps images centred in the carousel at a fixed height */
+.item img {
+    height: 30em !important;
+    margin: 0 auto 0 auto;
+}
