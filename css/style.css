@@ -1,5 +1,6 @@
 body {
     position: relative;
+    padding-top: 4em;
 }
 
 #logo_img {
@@ -8,7 +9,6 @@ body {
 }
 
 #site_wrapper {
-    padding-top: 4em;
     width: 80%;
     margin: 0 auto 0 auto;
 }
