@@ -1,3 +1,6 @@
+body {
+    position: relative;
+}
 
 #logo_img {
     height: 3em;
