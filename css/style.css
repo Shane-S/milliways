@@ -30,7 +30,6 @@ body {
     top: -1em;
 }
 
-/* Keeps images centred in the carousel at a fixed height */
 .item img {
     height: 30em !important;
     margin: 0 auto 0 auto;
@@ -58,4 +57,11 @@ body {
 .carousel-slide-title a:hover,
 .carousel-slide-title a:active {
     text-decoration: underline;
+}
+
+div.nav-section:before {
+    content:'';
+    display:block;
+    height:4em;
+    margin:-4em 0 0;
 }
