@@ -44,3 +44,15 @@
     padding: 0.5em 0em 0.5em 2em;
     z-index: 2;
 }
+
+.carousel-slide-title a,
+.carousel-slide-title a:link
+.carousel-slide-title a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.carousel-slide-title a:hover,
+.carousel-slide-title a:active {
+    text-decoration: underline;
+}
