@@ -67,14 +67,17 @@ div.nav-target:before {
 }
 
 ul.thumbnail-group {
-    border: 2px solid black;
+    padding: 1em 1em 1em 1em;
+    border: 1px solid black;
+    border-radius: 1em;
 }
 
 ul.thumbnail-group li {
     float: left;
+    margin: 1em 1em 1em 1em;
     list-style-type: none;
 }
 
 ul.thumbnail-group li img {
-    height: 3em;
+    height: 10em;
 }
