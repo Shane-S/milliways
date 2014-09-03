@@ -6,12 +6,14 @@
 
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     
     <title>Data Communications at BCIT</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/flatly.min.css">
+    <link rel="stylesheet" href="css/colorbox.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -175,7 +177,7 @@
                 <li>How to design and properly document your programs</li>
             </ul>
 
-            <p>For some examples of the kind of work you might do in this option, have a look at the <a href="#projects">Projects</a> section. You can also <a href="files/brochure.pdf">download the brochure</a> for more info.
+            <p>For some examples of the kind of work you might do in this option, have a look at the <a href="#projects">Projects</a> section. You can also <a target="_blank" href="files/brochure.pdf">download the brochure</a> for more info.
         </div>
         
         <div class="nav-target" id="projects">
@@ -186,10 +188,20 @@
                 <div class="nav-target" id="3980_1">
                     <h3>Assignment 1: Dumb Terminal Emulator</h3>
                     <p>This project is an introduction to both data communication and program design. It’s fairly simple: the user types on one machine, and the characters travel across a serial cable to be displayed on the other screen. There also must be an option to modify the transmission settings (as shown in the picture). This and the protocol project are probably the only two reasons why anyone has used the Win32 APIs for serial cables since 1990.</p>
+                    <ul class="thumbnail-group">
+                        <li><a href="res/3980/assn1/comm_settings.png" title="Something"><img src="res/3980/assn1/comm_settings.png" alt="Something"/></a></li>
+                        <li><a href="res/3980/assn1/comm_settings.png" title="Something"><img src="res/3980/assn1/comm_settings.png" alt="Something"/></a></li>
+                        <li><a href="res/3980/assn1/comm_settings.png" title="Something"><img src="res/3980/assn1/comm_settings.png" alt="Something"/></a></li>
+                    </ul>
                 </div>
                 <div class="nav-target" id="3980_2">
                     <h3>Assignment 2: RFID Scanner</h3>
                     <p>Using some exorbitantly priced RFID scanners, we wrote simple programs in groups of two that could read and display RFID tag information. The main goal was to use one of the more advanced I/O models (asynchronous or event-driven) discussed in class, but thanks to a poorly documented API and some peculiarities of Windows, it was also a great lesson in solving problems creatively.</p>
+                    <ul class="thumbnail-group">
+                        <li><a href="res/3980/assn2/design.png" title="Something"><img src="res/3980/assn2/design.png" alt="Something"/></a></li>
+                        <li><a href="res/3980/assn2/design.png" title="Something"><img src="res/3980/assn2/design.png" alt="Something"/></a></li>
+                        <li><a href="res/3980/assn2/design.png" title="Something"><img src="res/3980/assn2/design.png" alt="Something"/></a></li>
+                    </ul>
                 </div>
                 <div class="nav-target" id="3980_3">
                     <h3>Assignment 3: Raspberry Pi GPS Satellite Tracker</h3>
@@ -198,6 +210,7 @@
                 <div class="nav-target" id="3980_4">
                     <h3>Final Project: Wireless Protocol</h3>
                     <p></p>
+                </div>
             </div>
             <div id="4981">
                 <h2>4981</h2>

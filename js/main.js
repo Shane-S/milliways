@@ -1,7 +1,5 @@
-$(
-    function() 
-    {
-        $(window).on('hashchange', function(e){e.preventDefault();});
+$(function() {
+        // Make links scroll to navigable targets
         $('a[href*=#]:not([href=#])').click(
             function() 
             {
@@ -20,5 +18,11 @@ $(
                 }
             }
         );
-    }
-);
+        
+        var idx = 0;
+        // All thumbnails in thumbnail groups will be converted to lightbox galleries
+        $('.thumbnail-group').each(function(){
+            var links = $(this).find('a');
+            links.colorbox({rel:'group' + idx++});
+        });
+});
