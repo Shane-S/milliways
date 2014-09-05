@@ -2,6 +2,10 @@
     margin-top: 20px;
 }
 
+.page-section {
+    min-height: 800px;
+}
+
 .thumbnail-content {
     background-color: #ECF0F1;
 }
@@ -16,4 +20,21 @@
 
 .logo_link {
     position: relative;
+}
+
+.container #about,
+.container #projects{
+    padding-top: 70px;
+}
+
+#projects {
+    margin-bottom: 70px;
+}
+
+#footer {
+    margin-bottom: 70px;
+}
+
+.footer-right {
+    text-align: right;
 }
