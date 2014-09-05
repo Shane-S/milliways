@@ -89,11 +89,12 @@ ul.thumbnail-group {
 }
 
 ul.thumbnail-group li {
-    float: left;
     margin: 1em 1em 1em 1em;
     list-style-type: none;
+    display: inline-block;
 }
 
 ul.thumbnail-group li img {
-    height: 10em;
+    max-height: 10em;
+    max-width: 20em;
 }
