@@ -8,11 +8,6 @@ body {
     position: relative;
 }
 
-#site_wrapper {
-    width: 80%;
-    margin: 0 auto 0 auto;
-}
-
 .page-section {
     min-height: 800px;
 }
@@ -113,6 +108,7 @@ ul.thumbnail-group {
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     background-color: #e8e8e8;
+    max-width: 100%;
 }
 
 ul.thumbnail-group li {
@@ -123,5 +119,5 @@ ul.thumbnail-group li {
 
 ul.thumbnail-group li img {
     max-height: 10em;
-    max-width: 20em;
+    max-width: 100%;
 }
