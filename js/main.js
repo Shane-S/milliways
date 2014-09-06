@@ -25,6 +25,10 @@ $(document).ready(function() {
     // All thumbnails in thumbnail groups will be converted to lightbox galleries
     $('.thumbnail-group').each(function(){
         var links = $(this).find('a');
-        links.colorbox({rel:'group' + idx++});
+        links.colorbox({
+            rel:'group' + idx++,
+            maxWidth: "100%",
+            maxHeight: "100%"
+        });
     });
 });
