@@ -49,12 +49,15 @@ body {
     margin-bottom: 70px;
 }
 
-@media (max-width: 768px), handheld and (orientation:portrait){
+@media only screen 
+and (max-width: 320px){
     #aspect-ratio-dummy {
         padding-top: 70%;
     }
 }
-@media (min-width: 769px), handheld and (orientation:landscape) {
+
+@media only screen
+and (min-width: 321px){
     #aspect-ratio-dummy {
         padding-top: 42%;
     }
