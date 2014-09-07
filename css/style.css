@@ -4,8 +4,9 @@ body {
 }
 
 #logo_img {
-    height: 3em;
+    height: 2.5em;
     position: relative;
+    margin-right: 0.5em;
 }
 
 .page-section {
@@ -27,7 +28,7 @@ body {
 .logo_link {
     position: relative;
     vertical-align: center;
-    top: -1em;
+    top: -0.75em;
 }
 
 .logo-link-text {
