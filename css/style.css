@@ -9,6 +9,16 @@ body {
     margin-right: 0.5em;
 }
 
+.jumbotron {
+    margin-top: 25px;
+    padding: 20px 60px;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
 .page-section {
     min-height: 800px;
 }
@@ -49,7 +59,7 @@ body {
     margin-bottom: 70px;
 }
 
-@media only screen 
+@media only screen
 and (max-width: 320px){
     #aspect-ratio-dummy {
         padding-top: 70%;

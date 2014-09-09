@@ -49,23 +49,27 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Projects<span class="caret"></span>
+                        </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#3980">3980</a></li>
+                                <li><a href="#projects">Projects Slideshow</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#3980">COMP 3980 - Data Communications/Internetworking 1</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#3980_1">Assignment 1: Dumb Terminal Emulator</a></li>
                                 <li><a href="#3980_2">Assignment 2: RFID Scanner</a></li>
                                 <li><a href="#3980_3">Assignment 3: Raspberry Pi GPS</a></li>
                                 <li><a href="#3980_4">Final Project: Wireless Protocol</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#4981">4981</a></li>
+                                <li><a href="#4981">COMP 4981 - Data Communications/Internetworking 2</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#4981_1">Assignment 1: Terminal Simulator</a></li>
                                 <li><a href="#4981_2">Assignment 2: Message File Server</a></li>
                                 <li><a href="#4981_3">Assignment 3: Chat Program</a></li>
                                 <li><a href="#4981_4">Final Project: Cut the Power</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#4985">4985</a></li>
+                                <li><a href="#4985">COMP 4985 - Selected Topics in Data Communications/Internetworking</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#4985_1">Assignment 1: Introduction to Windows Sockets</a></li>
                                 <li><a href="#4985_2">Assignment 2: File Transfer &amp; Protocol Analysis</a></li>
@@ -81,20 +85,40 @@
     <!-- Main content -->
     <div class="container">
         <div class="nav-target" id="home">
-            <h1>Welcome to Data Communications</h1>
+            <div class="jumbotron">
 
-            <div class="text-justify">
-                <p>The Data Communications and Internetworking option has been churning out skilled software developers since January 1st, 1970. Also called <b>Data Commies</b>, these creatures dwell in SE12-323 and are found working most of the time.</p>
+                <h1>Welcome to Data Communications</h1>
 
-                <p>See the <a href="#about">About section</a> to read more about the option, or check out the <a href="#projects">Projects section</a> to see some sample work.</p>
-                <p>
-                    <a target="_blank" href="res/pamphlet.pdf" class="btn btn-primary" style="margin-bottom:1em"role="button">
-                        Download 2014 Brochure
-                    </a>
-                    <a target="_blank" href="res/Brochure-2010.pdf" class="btn btn-primary" style="margin-bottom:1em" role="button">
-                        Download 2010 Brochure
-                    </a>
-                </p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <div class="thumbnail-content">
+                                <div class="thumbnail-img">
+                                    <img src="img/hammer_and_sickle.png" alt="Hammer and Sickle">
+                                </div>
+                                <div class="caption text-center">
+                                    <h5>Why the hammer and the sickle?</h5>
+                                    <small>.... because Data Communication Students are called Data Commies.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p>The Data Communications and Internetworking option has been churning out skilled software developers since January 1st, 1970. Also called <b>Data Commies</b>, these creatures dwell in SE12-323 and are found working most of the time.</p>
+
+                        <p>See the <a href="#about">About section</a> to read more about the option, or check out the <a href="#projects">Projects section</a> to see some sample work.</p>
+
+                        <p class="pull-right">
+                            <a target="_blank" href="res/pamphlet.pdf" class="btn btn-primary" style="margin-bottom:1em"role="button">
+                                Download 2014 Brochure
+                            </a>
+                            <a target="_blank" href="res/Brochure-2010.pdf" class="btn btn-primary" style="margin-bottom:1em" role="button">
+                                Download 2010 Brochure
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -243,7 +267,7 @@
 
             <p>At the heart of Data Comm (and BCIT as a whole) is practical, hands-on education. Browse the projects below to see how Data Comm students apply their learning. Note that all of the projects listed below are written in C/C++ unless otherwise noted.</p>
             <div class="nav-target" id="3980">
-                <h2>3980</h2>
+                <h2>COMP 3980 - Data Communications/Internetworking 1</h2>
                 <div class="nav-target" id="3980_1">
                     <h3>Assignment 1: Dumb Terminal Emulator</h3>
                     <p>This project is an introduction to both data communication and program design. It's fairly simple: the user types on one machine, and the characters travel across a serial cable to be displayed on the other screen. There also must be an option to modify the transmission settings (see the screenshots).</p>
@@ -285,7 +309,7 @@
                 </div>
             </div>
             <div class="nav-target" id="4981">
-                <h2>4981</h2>
+                <h2>COMP 4981 - Data Communications/Internetworking 2</h2>
                 <div class="nav-target" id="4981_1">
                     <h3>Assignment 1: Terminal Simulator</h3>
                     <p>From the assignment description, the objective was "to use <b><i>fork</i></b>, <b><i>pipe</i></b> and <b>signals</b> in a program that reads and processes characters entered on a terminal keyboard". To accomplish this, students disable all input processing in the terminal and must adhere to the following constraints:</p>
@@ -337,7 +361,7 @@
                 </div>
             </div>
             <div class="nav-target" id="4985">
-                <h2>4985</h2>
+                <h2>COMP 4985 - Selected Topics in Data Communications/Internetworking</h2>
                 <div class="nav-target" id="4985_1">
                     <h3>Assignment 1: Introduction to Windows Sockets</h3>
                     <p>This assignment is a demonstration of the various network lookup functions. Users can look up the service and protocol for a particular port number (and vice versa), and can also look up and display the host name and aliases, if any, for a given IP address.</p>
