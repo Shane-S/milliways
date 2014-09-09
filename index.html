@@ -57,24 +57,9 @@
                                 <li class="divider"></li>
                                 <li><a href="#3980">COMP 3980 - Data Communications/Internetworking 1</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#3980_1">Assignment 1: Dumb Terminal Emulator</a></li>
-                                <li><a href="#3980_2">Assignment 2: RFID Scanner</a></li>
-                                <li><a href="#3980_3">Assignment 3: Raspberry Pi GPS</a></li>
-                                <li><a href="#3980_4">Final Project: Wireless Protocol</a></li>
-                                <li class="divider"></li>
                                 <li><a href="#4981">COMP 4981 - Data Communications/Internetworking 2</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#4981_1">Assignment 1: Terminal Simulator</a></li>
-                                <li><a href="#4981_2">Assignment 2: Message File Server</a></li>
-                                <li><a href="#4981_3">Assignment 3: Chat Program</a></li>
-                                <li><a href="#4981_4">Final Project: Cut the Power</a></li>
-                                <li class="divider"></li>
                                 <li><a href="#4985">COMP 4985 - Selected Topics in Data Communications/Internetworking</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#4985_1">Assignment 1: Introduction to Windows Sockets</a></li>
-                                <li><a href="#4985_2">Assignment 2: File Transfer &amp; Protocol Analysis</a></li>
-                                <li><a href="#4985_3">Assignment 3: Android GPS App</a></li>
-                                <li><a href="#4985_4">Final Project: Comm Audio</a></li>
                           </ul>
                     </li>
                 </ul>
@@ -268,10 +253,23 @@
             <br />
 
             <p>At the heart of Data Comm (and BCIT as a whole) is practical, hands-on education. Browse the projects below to see how Data Comm students apply their learning. Note that all of the projects listed below are written in C/C++ unless otherwise noted.</p>
+
+            <br /><hr /><br />
+
             <div class="nav-target" id="3980">
                 <h2>COMP 3980 - Data Communications/Internetworking 1</h2>
-                <div class="nav-target" id="3980_1">
-                    <h3>Assignment 1: Dumb Terminal Emulator</h3>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active"><a href="#3980_1" role="tab" data-toggle="tab">Assignment 1: Dumb Terminal Emulator</a></li>
+                  <li><a href="#3980_2" role="tab" data-toggle="tab">Assignment 2: RFID Scanner</a></li>
+                  <li><a href="#3980_3" role="tab" data-toggle="tab">Assignment 3: Raspberry Pi GPS Satellite Tracker</a></li>
+                  <li><a href="#3980_4" role="tab" data-toggle="tab">Final Project: Wireless Protocol</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="3980_1">
                     <p>This project is an introduction to both data communication and program design. It's fairly simple: the user types on one machine, and the characters travel across a serial cable to be displayed on the other screen. There also must be an option to modify the transmission settings (see the screenshots).</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
@@ -279,18 +277,16 @@
                         <li><a href="res/3980/assn1/main_screen.png" title="Main Interface"><img src="res/3980/assn1/thumbs/main_screen.png" alt="Main Interface"/></a></li>
                         <li><a href="res/3980/assn1/help_message.png" title="Instructions"><img src="res/3980/assn1/thumbs/help_message.png" alt="Instructions"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="3980_2">
-                    <h3>Assignment 2: RFID Scanner</h3>
+                  </div>
+                  <div class="tab-pane fade" id="3980_2">
                     <p>Using RFID scanners, the main goal of this assignment was to apply one of the more advanced I/O models (asynchronous or event-driven) discussed in class. Some peculiarities of Windows also made for a great lesson in creative problem solving.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
                         <li><a href="res/3980/assn2/design.png" title="Program Design"><img src="res/3980/assn2/thumbs/design.png" alt="Program Design"/></a></li>
                         <li><a href="res/3980/assn2/code.png" title="Code to Begin Reading"><img src="res/3980/assn2/thumbs/code.png" alt="Code to Begin Reading"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="3980_3">
-                    <h3>Assignment 3: Raspberry Pi GPS Satellite Tracker</h3>
+                  </div>
+                  <div class="tab-pane fade" id="3980_3">
                     <p>The Raspberry Pi is a $35 credit card-sized computer designed to learn programming and basic electronics (learn more about it <a target="_blank" href= "http://www.raspberrypi.org/">here</a>). This assignment paired the Raspberry Pi and a GPS dongle to display position and satellite information.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
@@ -298,9 +294,8 @@
                         <li><a href="res/3980/assn3/satellite_test.png" title="Something"><img src="res/3980/assn3/thumbs/satellite_test.png" alt="Something"/></a></li>
                         <li><a href="res/3980/assn3/satellite_test.png" title="Something"><img src="res/3980/assn3/thumbs/satellite_test.png" alt="Something"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="3980_4">
-                    <h3>Final Project: Wireless Protocol</h3>
+                  </div>
+                  <div class="tab-pane fade" id="3980_4">
                     <p>The final project for 3980 is to design and implement a wireless protocol using 2.4GHz modems and serial cables. During the design phase, the two project managers facilitate meetings with the entire class to determine the protocol design. While Aman provides minimal guidance, the end result is largely decided by the class. Once the design is complete, groups of four implement the protocol as per the specification.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                      <ul class="thumbnail-group">
@@ -308,12 +303,27 @@
                         <li><a href="res/3980/final/gantt.png" title="Gantt Chart"><img src="res/3980/final/thumbs/gantt.png" alt="Gantt Chart"/></a></li>
                         <li><a href="res/3980/final/design.png" title="Protocol Design"><img src="res/3980/final/thumbs/design.png" alt="Protocol Design"/></a></li>
                     </ul>
+                  </div>
                 </div>
             </div>
+
+            <br /><hr /><br />
+
             <div class="nav-target" id="4981">
                 <h2>COMP 4981 - Data Communications/Internetworking 2</h2>
-                <div class="nav-target" id="4981_1">
-                    <h3>Assignment 1: Terminal Simulator</h3>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active"><a href="#4981_1" role="tab" data-toggle="tab">Assignment 1: Terminal Simulator</a></li>
+                  <li><a href="#4981_2" role="tab" data-toggle="tab">Assignment 2: Message File Server</a></li>
+                  <li><a href="#4981_3" role="tab" data-toggle="tab">Assignment 3: Chat Program</a></li>
+                  <li><a href="#4981_4" role="tab" data-toggle="tab">Final Project: Cut the Power</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="4981_1">
+
                     <p>From the assignment description, the objective was "to use <b><i>fork</i></b>, <b><i>pipe</i></b> and <b>signals</b> in a program that reads and processes characters entered on a terminal keyboard". To accomplish this, students disable all input processing in the terminal and must adhere to the following constraints:</p>
                     <ul>
                         <li>typing 'E' will send the input to the other process to be interpreted</li>
@@ -331,9 +341,9 @@
                         <li><a href="res/4981/assn1/normal_term.png" title="Quitting"><img src="res/4981/assn1/thumbs/normal_term.png" alt="Quitting"/></a></li>
                         <li><a href="res/4981/assn1/kill_term.png" title="Killing the Terminal"><img src="res/4981/assn1/thumbs/kill_term.png" alt="Killing the Terminal"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4981_2">
-                    <h3>Assignment 2: Message File Server</h3>
+
+                  </div>
+                  <div class="tab-pane fade" id="4981_2">
                     <p>While the terminal simulator explored the use of pipes as IPC, the message file server uses messages, which are small packets of information sent between processes through the kernel. The goal was to implement server and client programs: the client sends a message requesting a file, and the server responds with either a message indicating that the file wasn't found or the contents of the file spread over a series of messages. The server also had a priority system such that processes joining later would receive their files more quickly.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
@@ -341,31 +351,47 @@
                         <li><a href="res/4981/assn2/error_message.png" title="Server Can't Find File"><img src="res/4981/assn2/thumbs/error_message.png" alt="Server Can't Find File"/></a></li>
                         <li><a href="res/4981/assn2/small_test.png" title="Small Test"><img src="res/4981/assn2/thumbs/small_test.png" alt="Small Test"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4981_3">
-                    <h3>Assignment 3: Chat Program</h3>
+                  </div>
+                  <div class="tab-pane fade" id="4981_3">
                     <p>This is a simple web chat application on the console. The main purpose of the assignment was to introduce I/O multiplexing in Linux with the <b><i>select()</i></b> call. This allows the program to wait for input from both the keyboard and the socket in the same thread. The same concept can be used to wait on multiple sockets, forming the basis for efficient servers.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
                         <li><a href="res/4985/assn2/lan_comparison.png" title="LAN Transfer Statistics"><img src="res/4985/assn2/thumbs/lan_comparison.png" alt="LAN Transfer Statistics"/></a></li>
                         <li><a href="res/4985/assn2/ReceiveLog.png" title="Received Packets Log"><img src="res/4985/assn2/thumbs/ReceiveLog.png" alt="Received Packets Log"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4981_4">
-                    <h3>Final Project: Cut the Power</h3>
+                  </div>
+                  <div class="tab-pane fade" id="4981_4">
                     <p>This project is the culmination of hundreds of hours of researching, designing, programming, and debugging. It is also the closest to a real-world development situation; Aman, the client, gives some broad requirements, and two project managers oversee small development teams responsible for different parts of the project. To succeed in this project requires excellent communication, teamwork and management.</p>
+                    <p class="text-center">
+                        <iframe height="315" width="500" src="//www.youtube.com/embed/Di1N48Eiqmg" frameborder="0" allowfullscreen></iframe>
+                    </p>
                     <p>The game features a variety of characters, power-ups, in-game chat, and support for up to 32 players. Have a look at the <a target="_blank" href="res/game_manual.pdf">game manual</a> for more information on the game or the <a target="_blank" href="https://www.youtube.com/watch?v=Di1N48Eiqmg&feature=youtu.be">trailer</a> to see the game in action. To view the source code and download/build the game, <a target="_blank" href="https://github.com/DComm2013Network/CutThePower">check out the project on GitHub</a>.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
                         <li><a href="res/4981/final/poster.png" title="Game Poster"><img src="res/4981/final/thumbs/poster.png" alt="Game Poster"/></a></li>
                         <li><a href="res/4981/final/errors.png" title="10 000 000 Errors"><img src="res/4981/final/thumbs/errors.png" alt="10 000 000 Errors"/></a></li>
                     </ul>
+                  </div>
                 </div>
             </div>
+
+            <br /><hr /><br />
+
             <div class="nav-target" id="4985">
                 <h2>COMP 4985 - Selected Topics in Data Communications/Internetworking</h2>
-                <div class="nav-target" id="4985_1">
-                    <h3>Assignment 1: Introduction to Windows Sockets</h3>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active"><a href="#4985_1" role="tab" data-toggle="tab">Assignment 1: Intro to Windows Sockets</a></li>
+                  <li><a href="#4985_2" role="tab" data-toggle="tab">Assignment 2: File Transfer/Protocol Analysis</a></li>
+                  <li><a href="#4985_3" role="tab" data-toggle="tab">Assignment 3: Android GPS App</a></li>
+                  <li><a href="#4985_4" role="tab" data-toggle="tab">Final Project: Comm Audio</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="4985_1">
+
                     <p>This assignment is a demonstration of the various network lookup functions. Users can look up the service and protocol for a particular port number (and vice versa), and can also look up and display the host name and aliases, if any, for a given IP address.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
@@ -377,18 +403,17 @@
                         <li><a href="res/4985/assn1/port_lookup_2.png" title="Service Lookup Result"><img src="res/4985/assn1/thumbs/port_lookup_2.png" alt="Service Lookup Result"/></a></li>
                         <li><a href="res/4985/assn1/empty_host_ip_2.png" title="Invalid Input"><img src="res/4985/assn1/thumbs/empty_host_ip_2.png" alt="Invalid Input"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4985_2">
-                    <h3>Assignment 2: File Transfer &amp; Protocol Analysis</h3>
+
+                  </div>
+                  <div class="tab-pane fade" id="4985_2">
                     <p>This assignment serves three purposes: to prepare for the audio streaming project; to provide a practical demonstration of the differences between TCP and UDP under various conditions; and to use advanced I/O techniques. Gathering data to compare the protocols is the focus of the assignment; actually transferring a file from one machine to another is probably the least important part. Students also write <a target="_blank" href="res/report.pdf">a report</a> discussing the experiment.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
                         <li><a href="res/4985/assn2/lan_comparison.png" title="LAN Transfer Statistics"><img src="res/4985/assn2/thumbs/lan_comparison.png" alt="LAN Transfer Statistics"/></a></li>
                         <li><a href="res/4985/assn2/ReceiveLog.png" title="Received Packets Log"><img src="res/4985/assn2/thumbs/ReceiveLog.png" alt="Received Packets Log"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4985_3">
-                    <h3>Assignment 3: Android GPS App</h3>
+                  </div>
+                  <div class="tab-pane fade" id="4985_3">
                     <p>The Android GPS application was a brief (and welcome) break from Windows. The basic requirement was to have the device find its position and send it to server which would print the result. Networking is much easier in Java than C/C++; setting up the Android SDK and Google Maps API proved to be more difficult than the actual project.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
@@ -397,17 +422,18 @@
                         <li><a href="res/4985/assn3/3.png" title="Server Location Plotting"><img src="res/4985/assn3/thumbs/3.png" alt="Server Location Plotting"/></a></li>
                         <li><a href="res/4985/assn3/7.png" title="Server Receiving Locations"><img src="res/4985/assn3/thumbs/7.png" alt="Server Receiving Locations"/></a></li>
                     </ul>
-                </div>
-                <div class="nav-target" id="4985_4">
-                    <h3>Final Project: Comm Audio</h3>
+                  </div>
+                  <div class="tab-pane fade" id="4985_4">
                     <p>The final project of 4985 is to write an audio streaming application that supports microphone chat and multicast. Success in assignment two will heavily influence this project: the I/O models implemented there, and the investigation into how the transport protocols behave under different circumstances, will both be important factors into making the audio stream and play correctly.</p>
                     <div class="thumbnail-group-title">Screenshots</div>
                     <ul class="thumbnail-group">
                         <li><a href="res/4985/final/web_ui.png" title="Comm Audio UI"><img src="res/4985/final/thumbs/web_ui.png" alt="Comm Audio UI"/></a></li>
                         <li><a href="res/4985/final/server_design.png" title="Server Design"><img src="res/4985/final/thumbs/server_design.png" alt="Server Design"/></a></li>
                     </ul>
+                  </div>
                 </div>
             </div>
+
             <!-- List of projects with GitHub links -->
         </div>
         <hr />
